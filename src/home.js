@@ -18,7 +18,7 @@ const createHomePage = () => {
 
     //crea texto
     const texto = document.createElement("p");
-    texto.textContent = "Nuestro restaurante de sushi es un lugar donde podrás disfrutar de la auténtica experiencia culinaria japonesa. Contamos con una amplia variedad de opciones, desde sashimi fresco hasta rollitos de sushi de autor. Nos enorgullece utilizar ingredientes de la más alta calidad y técnicas de preparación tradicionales para brindarte un sabor excepcional. Disfruta de una experiencia gastronómica única en un ambiente tranquilo y elegante, con precios razonables y un servicio excepcional. ¡Ven a visitarnos y prueba el mejor sushi de la ciudad!";
+    texto.textContent = "Disfruta de una experiencia japonesa auténtica.";
     pageContent.appendChild(texto);
     content.appendChild(pageContent);
     
