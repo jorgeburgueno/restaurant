@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+  }
+
+  body {
+    font: 14px/1 'Open Sans', sans-serif;
+    color: #555;
+    background: #eee;    
+    
+    min-height: 100vh;    
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    padding: 50px 0;
+  font-weight: 400;
+  text-align: center;
+  }
+  p {
+    margin: 0 0 20px;
+    line-height: 1.5;
+  }
+  
+  
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0px 2px;
+    background: #32557f;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080;
+  }
+  
+  .page-content {
+    background: #fff;
+    box-shadow: 0 2rem 2rem #00000080;
+    min-height: 200px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 20px;
+    animation: fadein 0.3s;
+    display: block;
+   
+  }
+  
+  
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+
+  
+  
+  
