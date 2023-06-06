@@ -9,7 +9,7 @@ const createMenu = () => {
     heading.textContent= "Nuestro Menu";
 
     const menuList = document.createElement('ul')
-    menuList.textContent = "Empanizados";
+    menuList.textContent = "Empanizados:";
     const menuItem = document.createElement('li')
     menuItem.textContent = "Mar y Tierra";
     const menuItem2 = document.createElement('li')
@@ -18,7 +18,7 @@ const createMenu = () => {
     menuItem3.textContent = "Cordon blue";
 
     const menuList2 = document.createElement('ul')
-    menuList2.textContent = "Naturales";
+    menuList2.textContent = "Naturales:";
     const menuItem4 = document.createElement('li')
     menuItem4.textContent = "Guamuchilito";
     const menuItem5 = document.createElement('li')
