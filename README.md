@@ -1,2 +1,6 @@
 # restaurant
-Pagina de Restaurant
+Pagina de Restaurant utilizando :
+JavaScript
+CSS
+HTML
+Webpack
